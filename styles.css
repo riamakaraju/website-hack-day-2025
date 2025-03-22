@@ -16,19 +16,29 @@ body {
 .menu {
     padding: 40px;
     background-color: #000000;
-    color: #ffffff;
+    color: #dcdcdc;
     font-size: 16px;
     position: sticky;
     top: 0;
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
 }
 
 .menu a {
     text-decoration: none;
-    color: #ffffff;
+    background-color: #000000;
+    color: #d4d4d4;
 }
 
 .content {
-    padding: 40px;
+    display: flex;
+    border: 20px;
 }
+
+.imgme {
+    border: 60px solid #653535;
+    align-content: "left"
+  }
