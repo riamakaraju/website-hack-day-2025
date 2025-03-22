@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+/* . means class name */
+.red-text {
+    color: red
+}
+
 /* The following classes are used to style the corresponding html classes */
 .menu {
     padding: 40px;
